@@ -1,0 +1,40 @@
+.github-widget {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .github-widget h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .status-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .status-button.connected {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .status-button.disconnected {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .status-button.connected:hover {
+    background-color: #218838;
+  }
+  
+  .status-button.disconnected:hover {
+    background-color: #c82333;
+  }
+  

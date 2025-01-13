@@ -1,0 +1,39 @@
+.google-widget {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .google-widget h3 {
+    color: #4285f4; /* Couleur de Google */
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .connect-button,
+  .disconnect-button {
+    background-color: #4285f4; /* Couleur de Google */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .disconnect-button {
+    background-color: #f44336; /* Rouge */
+  }
+  
+  .connect-button:hover {
+    background-color: #357ae8;
+  }
+  
+  .disconnect-button:hover {
+    background-color: #d32f2f;
+  }
+  

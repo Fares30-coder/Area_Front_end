@@ -1,0 +1,31 @@
+/* widgetStyles.css */
+.widget {
+    position: absolute;
+    width: 200px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    cursor: grab;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.widget:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.widget-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.widget-content {
+    font-size: 1em;
+    color: #555;
+}
+
+.widget-movable {
+    cursor: move;
+}
